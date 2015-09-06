@@ -8,3 +8,11 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
+
+def speak_to_grandma (statement)
+ if statement == statement.upcase
+       "no, not since 1938!".upcase
+  else
+     "huh?! speak up, sonny!".upcase
+  end
+end
