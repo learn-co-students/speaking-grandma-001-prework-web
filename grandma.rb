@@ -1,13 +1,13 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma(statement)
-  if  statement.upcase
-   "NO, NOT SINCE 1938"
+def speak_to_grandma(talk)
+  if talk === talk.upcase()
+    return "NO, NOT SINCE 1938!"
   else
-    statement
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
 
-
+puts speak_to_grandma("ARE YOU ALIVE?")
 
 #Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
