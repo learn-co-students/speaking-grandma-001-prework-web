@@ -1,4 +1,4 @@
-# Write a speak_to_grandma method.
+B# Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
@@ -10,11 +10,8 @@
 # NO, NOT SINCE 1938!
 
 def speak_to_grandma(text)
-  string = nil
   if text == text.upcase
-    string =  "NO, NOT SINCE 1938!"
+    print "NO, NOT SINCE 1938!"
   else 
-    string =  "HUH?! SPEAK UP, SONNY!"
-  end
-  string
+    print "HUH?! SPEAK UP SONNY!"
 end
