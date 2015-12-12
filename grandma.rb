@@ -8,3 +8,21 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
+
+greeting = "Hi Nana, how are you?"
+
+
+def speak_to_grandma(greeting)
+
+loudgreeting = greeting.upcase
+
+   if(greeting != loudgreeting)
+       return "HUH?! SPEAK UP, SONNY!"
+
+   else
+       return "NO, NOT SINCE 1938!"
+    
+   end
+   
+   
+end
