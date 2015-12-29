@@ -1,3 +1,12 @@
+def speak_to_grandma(greeting)
+  if greeting != "#{greeting}".upcase
+    "HUH?! SPEAK UP, SONNY!"
+  else 
+    "NO, NOT SINCE 1938!"   
+  end
+end
+
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -7,4 +16,4 @@
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 
-# NO, NOT SINCE 1938!
+# "NO, NOT SINCE 1938!"
