@@ -4,7 +4,15 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
+# If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
 # NO, NOT SINCE 1938!
+
+def speak_to_grandma(phrase)
+  if phrase == phrase.upcase #checks to see if argument is uppercase.
+    return "NO, NOT SINCE 1938!"
+  else #Tells program what to return if the argument is false
+    return "HUH?! SPEAK UP, SONNY!"
+  end
+end
