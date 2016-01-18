@@ -1,4 +1,10 @@
-describe '#speak_to_grandma' do
+require 'spec_helper'
+require_relative '../grandma.rb'
+
+
+describe "ruby" do
+
+ describe '#speak_to_grandma' do
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
     expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
   end
@@ -15,4 +21,5 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
   end
 
+ end
 end
