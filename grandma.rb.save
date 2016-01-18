@@ -1,13 +1,4 @@
-def speak_to_grandma(message)
-	shouted = true
-	message.split(//).each{|x|
-		shouted = false if x != x.upcase
-	}
-	heard = "NO, NOT SINCE 1938!"
-	notHeard = "HUH?! SPEAK UP, SONNY!"
-	return  heard if shouted == true
-	return  notHeard
-end
+def speak_to_grandma(
 
 # Write a speak_to_grandma method.
 
