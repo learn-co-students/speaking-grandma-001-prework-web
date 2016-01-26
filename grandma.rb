@@ -1,26 +1,14 @@
-def speak_to_grandma(greeting)
-  if "#{greeting}" == "hi Nana, how are you?"
-     puts "HUH?! SPEAK UP, SONNY!"
 
+def speak_to_grandma(sup)
+  if "#{sup}" == "Hi Nana, how are you?"
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif "#{sup}" != "#{sup}".upcase
+    return "HUH?! SPEAK UP, SONNY!"
+  else "#{sup}" == "#{sup}".upcase
+    return "NO, NOT SINCE 1938!"
+  end
 end
-
-  speak_to_grandma("Hi Nana, how are you?")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+speak_to_grandma("Hi Nana, how are you?")
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
