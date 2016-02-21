@@ -1,3 +1,11 @@
+def speak_to_grandma(prompt)
+	if prompt == prompt.upcase
+		"NO, NOT SINCE 1938!"
+	else
+		return "HUH?! SPEAK UP, SONNY!"
+	end
+end
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
