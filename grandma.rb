@@ -14,6 +14,7 @@
 def speak_to_grandma(exp)
   str=exp
   puts str
+
   if str.swapcase == str.downcase
     "NO, NOT SINCE 1938!"
   else
