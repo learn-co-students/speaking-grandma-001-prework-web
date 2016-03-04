@@ -8,15 +8,11 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
-def speak_to_grandma(phrase = "Hi Nana, how are you?")
+phrase = "Hi Nana, how are you?"
+def speak_to_grandma(phrase)
   if phrase == phrase.upcase
-    return "HUH?! SPEAK UP, SONNY!"
-    else if phrase("Hi!") == phrase("Hi!").upcase
-    return "HUH?! SPEAK UP, SONNY!"
-    else if phrase("what did you eat today?").upcase
-    return "NO, NOT SINCE 1938!"
-    else if phrase("what?").upcase
     return "NO, NOT SINCE 1938!"
     else
-      return "NO, NOT SINCE 1938!"
+    return "HUH?! SPEAK UP, SONNY!"
   end
+end
