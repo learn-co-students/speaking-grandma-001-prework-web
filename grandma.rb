@@ -1,10 +1,10 @@
 input = "WHAT DID YOU EAT TODAY?"
 
 def speak_to_grandma(input)
-if
+  if
   input != input.upcase
   "HUH?! SPEAK UP, SONNY!"
-else
+  else
   "NO, NOT SINCE 1938!"
 end
 end
