@@ -8,3 +8,12 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
+def speak_to_grandma(words)
+  wordsUpcase = words.upcase();
+  if wordsUpcase != words
+    return "HUH?! SPEAK UP, SONNY!"
+   else 
+    return "NO, NOT SINCE 1938!"
+  end
+  
+end
