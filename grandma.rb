@@ -8,3 +8,12 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
+
+
+def speak_to_grandma(what_you_say)
+  if what_you_say == what_you_say.upcase
+    "NO, NOT SINCE 1938!"
+  else
+    "HUH?! SPEAK UP, SONNY!"
+  end
+end
