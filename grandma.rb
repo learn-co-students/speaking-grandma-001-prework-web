@@ -1,10 +1,18 @@
-# Write a speak_to_grandma method.
+require 'spec_helper'
 
-# Whatever you say to grandma, she should respond with
-# HUH?! SPEAK UP, SONNY!
-# unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
-# and yells back
-
-# NO, NOT SINCE 1938!
+def speak_to_grandma(statement)
+    
+    response1 = "HUH?! SPEAK UP, SONNY!"
+    response2 = "NO, NOT SINCE 1938!"
+    
+    if statement != statement.upcase
+        puts "I did not shout, so she replied...#{response1}"
+        response1
+    else
+        puts "I shouted, but she replied, #{response2}"
+        response2
+    end
+    
+end
+    
