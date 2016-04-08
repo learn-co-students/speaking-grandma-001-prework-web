@@ -1,10 +1,18 @@
-# Write a speak_to_grandma method.
 
-# Whatever you say to grandma, she should respond with
-# HUH?! SPEAK UP, SONNY!
-# unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
-# and yells back
+  def speak_to_grandma(phrase)
+    puts phrase
 
-# NO, NOT SINCE 1938!
+if phrase == "WHAT DID YOU EAT TODAY?"
+  puts "NO, NOT SINCE 1938!"
+  return "NO, NOT SINCE 1938!"
+
+elsif phrase == "WHAT?"
+  return "NO, NOT SINCE 1938!"
+
+else
+  return "HUH?! SPEAK UP, SONNY!"
+  puts "HUH?! SPEAK UP, SONNY!"
+
+  end
+  end
