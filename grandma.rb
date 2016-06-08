@@ -12,17 +12,17 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma(phrase="I LOVE YOU GRANDMA!")
+def speak_to_grandma(phrase)
 
   item=phrase
   if item == item.upcase
      if item == "I LOVE YOU GRANDMA!"
-        puts "I LOVE YOU TOO PUMPKIN!"
+        return "I LOVE YOU TOO PUMPKIN!"
       else
-        puts "NO, NOT SINCE 1938!"
+        return "NO, NOT SINCE 1938!"
       end
 
    else
-     puts "HUH?! SPEAK UP, SONNY!"
+     return "HUH?! SPEAK UP, SONNY!"
   end
 end
