@@ -1,10 +1,9 @@
-
-input = gets.chomp
-
-if input == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
-elsif input == "When was the last time you ate?".upcase
-  puts "NO, NOT SINCE 1938!"
-else
-  puts "HUH?! SPEAK UP, SONNY!"
+def speak_to_grandma (input)
+  if input != input.upcase()
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif input == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  else
+    return "NO, NOT SINCE 1938!"
+  end
 end
