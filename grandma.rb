@@ -9,18 +9,13 @@
 
 # NO, NOT SINCE 1938!
 def speak_to_grandma(phrase)
-   if phrase == "Hi Nana, how are you?"
-     "HUH?! SPEAK UP, SONNY!"
-   elsif phrase == "Hi!"
-     "HUH?! SPEAK UP, SONNY!"
-   elsif phrase == "WHAT DID YOU EAT TODAY?"
-     "NO, NOT SINCE 1938!"
-   else phrase == "WHAT?"
-     "NO, NOT SINCE 1938!"
-   end
+  if phrase == "Hi Nana, how are you?"
+    "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == "Hi!"
+    "HUH?! SPEAK UP, SONNY!"
+  elsif phrase =="WHAT DID YOU EAT TODAY?"
+    "NO, NOT SINCE 1938!"
+  else phrase == "WHAT?"
+    "NO, NOT SINCE 1938!"
+  end
 end
-
- puts speak_to_grandma("Hi Nana, how are you?")
- puts speak_to_grandma("Hi!")
- puts speak_to_grandma("WHAT DID YOU EAT TODAY?")
- puts speak_to_grandma("WHAT?")
