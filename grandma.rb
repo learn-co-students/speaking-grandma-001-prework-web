@@ -11,3 +11,19 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+# require 'pry'
+
+def speak_to_grandma(text)
+
+	if text == "I LOVE YOU GRANDMA!"
+		"I LOVE YOU TOO PUMPKIN!"
+	elsif text == text.upcase
+		"NO, NOT SINCE 1938!"
+	else
+		"HUH?! SPEAK UP, SONNY!"
+	end
+
+end
+
+# binding.pry
